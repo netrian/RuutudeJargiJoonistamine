@@ -1,1 +1,22 @@
-1
+body{
+    background-color: lightgreen;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.button{
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 40%;
+    border-color: black;
+    background-color: lightcoral;
+}
