@@ -15,8 +15,9 @@ div{
     height: 70px;
     width: 200px;
     font-weight: bold;
+    margin: 2%;
     border: 1px;
-    border-radius: 40%;
+    border-radius: 15px;
     border-color: black;
     background-color: lightcoral;
 }
