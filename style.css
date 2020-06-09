@@ -1,5 +1,8 @@
+
+
 body{
-    background-color: lightgreen;
+    background-color: rgba(255, 239, 97, 0.5);
+    font-family: 'Roboto', sans-serif;
 }
 
 div{
@@ -7,8 +10,15 @@ div{
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 42%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color:  rgba(226, 213, 89, 0.5);;
 }
 
 .button{
@@ -19,5 +29,47 @@ div{
     border: 1px;
     border-radius: 15px;
     border-color: black;
-    background-color: lightcoral;
+    background-color: rgb(219, 98, 98);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(202, 95, 95);
+    transition: all 0.3s ease;
+}
+
+.new_Drawing {
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    margin: 2%;
+    border: 1px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(219, 98, 98);
+    left: 50%;
+}
+
+.new_Drawing:hover{
+    cursor: pointer;
+    background-color: rgb(202, 95, 95);
+    transition: all 0.3s ease;
+}
+
+.menuu{
+    height: 70px;
+    width: 200px;
+    font-weight: bold;
+    margin: 2%;
+    border: 1px;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(219, 98, 98);
+    left: 50%;
+}
+
+.menuu:hover{
+    cursor: pointer;
+    background-color: rgb(202, 95, 95);
+    transition: all 0.3s ease;
 }
