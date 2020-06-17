@@ -132,6 +132,27 @@ h1 {
   background-color: white;
 }
 
+.sonic-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.sonic-white-bg{
+  background-color: white;
+}
+
+.sonic-blue-bg{
+  background-color: #2196f3;
+}
+
+.sonic-tan-bg{
+  background-color: #f4ac72;
+}
+
+.sonic-red-bg{
+  background-color: #d50100;
+}
+
 .hide-copy p {
   display: none;
 }
