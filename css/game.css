@@ -132,6 +132,69 @@ h1 {
   background-color: white;
 }
 
+.kitty-red-bg{
+  background-color: #ff0000;
+}
+
+.kitty-white-bg{
+  background-color: #ffffff;
+}
+
+.kitty-black-bg{
+  background-color: #000000;
+  color: white;
+}
+
+.sword-dgreen-bg{
+  background-color: #135f52;
+}
+
+.sword-lgreen-bg{
+  background-color: #35e7c7;
+}
+
+.sword-brown-bg{
+  background-color: #876526;
+}
+
+.sword-white-bg{
+  background-color: #ffffff;
+}
+
+.ice-lpink-bg{
+  background-color: #faadd7;
+}
+
+.ice-dpink-bg{
+  background-color: #d2007f;
+}
+
+.ice-yellow-bg{
+  background-color: #fcbb00;
+}
+
+.ice-black-bg{
+  background-color: #000000;
+  color: white;
+}
+
+.ice-white-bg{
+  background-color: #ffffff;
+}
+
+.dead-red-bg{
+  background-color: #ee4035 ;
+}
+
+.dead-white-bg{
+  background-color: #ffffff;
+}
+
+.dead-black-bg{
+  background-color: #000000;
+  color: white;
+}
+
 .hide-copy p {
   display: none;
 }
