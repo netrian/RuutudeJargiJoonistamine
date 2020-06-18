@@ -1,0 +1,125 @@
+html {
+    font-family: sans-serif;
+    color: white;
+    background-color: #333333;
+  }
+  
+  body {
+    background: rgb(221,237,247);
+  }
+  
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .canvass {
+    clear: both;
+    width: 512px;
+    height: 512px;
+    border: 1px solid lightgray;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .roww {
+    float: left;
+  }
+  
+  .cell {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 1px solid lightgray;
+    position: relative;
+    color: black;
+    font-size: 50%;
+  }
+  
+  .cell p {
+    position: absolute;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+    width: 100%;
+    line-height: 10px;
+  }
+  
+  .btn-container {
+    clear: both;
+    padding-top: 10px;
+    width: 512px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    width: 100px;
+    float: left;
+    padding: 5px;
+    margin: 5px 5px;
+    cursor: pointer;
+  }
+  
+  .btn p {
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 6px white;
+  }
+  
+  .button {
+    background-color: white;
+    color: black;
+  }
+  
+  .selected {
+    box-shadow: 0 0 6px white;
+  }
+  
+  .pika-black-bg {
+    background-color: black;
+    color: white;
+  }
+
+  .pika-white-bg{
+    background-color: white;
+  }
+
+  .pika-grey-bg{
+    background-color: #c0c0c0;
+  }
+
+  .pika-yellow-bg{
+    background-color: #ffff00;
+  }
+
+  .pika-darkyellow-bg{
+    background-color: #ffcc00 ;
+  }
+  
+  .pika-lightyellow-bg{
+    background-color: #ffff66;
+  }
+
+  .pika-red-bg{
+    background-color: #ff0000;
+  }
+
+  .pika-darkred-bg{
+    background-color: #993300;
+    color: white;
+  }
+
+  .pika-pink-bg{
+    background-color: #ff9999;
+  }
+  
+  .hide-copy p {
+    display: none;
+  }
+  
+  
