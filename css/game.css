@@ -132,7 +132,6 @@ h1 {
   background-color: white;
 }
 
-<<<<<<< HEAD
 .kitty-red-bg{
   background-color: #ff0000;
 }
@@ -194,7 +193,7 @@ h1 {
 .dead-black-bg{
   background-color: #000000;
   color: white;
-=======
+}
 .sonic-black-bg{
   background-color: black;
   color: white;
@@ -235,7 +234,6 @@ h1 {
 
 .push-pink-bg{
   background-color: #e44eb9;
->>>>>>> 110acd0d8197bd26ed40992b3500e17dc9ba00b9
 }
 
 .hide-copy p {
