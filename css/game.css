@@ -153,6 +153,27 @@ h1 {
   background-color: #d50100;
 }
 
+.push-black-bg{
+  background-color: black;
+  color: white;
+}
+
+.push-white-bg{
+  background-color: white;
+}
+
+.push-grey-bg{
+  background-color: #9e9596;
+}
+
+.push-darkgrey-bg{
+  background-color: #4c3e3d;
+}
+
+.push-pink-bg{
+  background-color: #e44eb9;
+}
+
 .hide-copy p {
   display: none;
 }

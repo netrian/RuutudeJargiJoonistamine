@@ -190,6 +190,41 @@ $("#sonic-red-btn").on("click", function () {
   $(this).addClass("selected");
 });
 
+$("#push-black-btn").on("click", function () {
+  color = "push-black-bg";
+  colorNumber = "1";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#push-white-btn").on("click", function () {
+  color = "push-white-bg";
+  colorNumber = "2";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#push-grey-btn").on("click", function () {
+  color = "push-grey-bg";
+  colorNumber = "3";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#push-darkgrey-btn").on("click", function () {
+  color = "push-darkgrey-bg";
+  colorNumber = "4";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
+$("#push-pink-btn").on("click", function () {
+  color = "push-pink-bg";
+  colorNumber = "5";
+  $(".btn").removeClass("selected");
+  $(this).addClass("selected");
+});
+
 // On click of any of the cells...
 $(".cell").on("click", function () {
   // Set data-color attribute to colorNumber variable
@@ -226,7 +261,12 @@ $(".cell").on("click", function () {
     $(this).hasClass("sonic-white-bg") ||
     $(this).hasClass("sonic-red-bg") ||
     $(this).hasClass("sonic-blue-bg") ||
-    $(this).hasClass("sonic-tan-bg") 
+    $(this).hasClass("sonic-tan-bg") ||
+    $(this).hasClass("push-pink-bg") ||
+    $(this).hasClass("push-black-bg") ||
+    $(this).hasClass("push-white-bg") ||
+    $(this).hasClass("push-grey-bg") ||
+    $(this).hasClass("push-darkgrey-bg") 
   ) {
     // Remove all colors and add selected color
     $(this).removeClass("red-bg");
@@ -255,6 +295,11 @@ $(".cell").on("click", function () {
     $(this).removeClass("sonic-tan-bg");
     $(this).removeClass("sonic-blue-bg");
     $(this).removeClass("sonic-white-bg");
+    $(this).removeClass("push-pink-bg");
+    $(this).removeClass("push-black-bg");
+    $(this).removeClass("push-grey-bg");
+    $(this).removeClass("push-darkgrey-bg");
+    $(this).removeClass("push-white-bg");
     $(this).addClass(color);
     $(this).addClass("hide-copy");
   } else {
@@ -293,6 +338,11 @@ $("#clear").on("click", function () {
   $(".cell").removeClass("sonic-blue-bg");
   $(".cell").removeClass("sonic-tan-bg");
   $(".cell").removeClass("sonic-red-bg");
+  $(".cell").removeClass("push-black-bg");
+  $(".cell").removeClass("push-white-bg");
+  $(".cell").removeClass("push-pink-bg");
+  $(".cell").removeClass("push-grey-bg");
+  $(".cell").removeClass("push-darkgrey-bg");
   $(".cell").removeClass("hide-copy");
 });
 
@@ -330,6 +380,11 @@ $("#check").on("click", function () {
       $(test).removeClass("sonic-blue-bg");
       $(test).removeClass("sonic-tan-bg");
       $(test).removeClass("sonic-red-bg");
+      $(test).removeClass("push-black-bg");
+      $(test).removeClass("push-white-bg");
+      $(test).removeClass("push-grey-bg");
+      $(test).removeClass("push-darkgrey-bg");
+      $(test).removeClass("push-pink-bg");
       $(test).removeClass("hide-copy");
     }
   }
